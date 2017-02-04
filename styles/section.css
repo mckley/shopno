@@ -1,0 +1,21 @@
+.section{
+    padding: 0 20px;  
+}
+.section--light{
+    background-color: #eff0f2;
+}
+.section__content{
+  position: relative;
+  max-width: 1140px;
+  min-height: 280px;
+  margin: 0 auto;
+}
+.section--separated{
+  padding: 75px 20px;
+}
+.section--greaterly{
+  background-color: #f9fbfb;
+}
+.section--intro{
+   padding: 65px 20px 0; 
+}

@@ -1,0 +1,23 @@
+.featured{
+  text-align: center
+}
+.featured__title{
+  opacity: 0.9;
+  color: black;
+  font-family: Montserrat;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.featured__subtitle{
+  opacity: 0.62;
+  color: black;
+  font-family: Merriweather;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-bottom: 130px;
+}

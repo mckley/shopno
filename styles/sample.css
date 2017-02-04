@@ -1,0 +1,8 @@
+.sample{
+  margin-bottom: 15px;
+}
+.samples__container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

@@ -1,0 +1,80 @@
+.intro{
+  box-sizing: border-box;
+  height: 80vh;
+}
+.intro__content{
+  height: 100%;
+}
+.intro__head{
+  display: flex;
+  justify-content: space-between;
+}
+.intro__logo{
+  width: 110px;
+  max-height: 50px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: black;
+  border: 5px solid #170f1c;
+  text-shadow: 0 0 2px rgba(21, 21, 22, 0.75);
+}
+.intro__o{
+  color: #77efe5;
+  font-size: 18px;
+}
+.intro__wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.intro__title{
+  text-shadow: 3.5px 8.3px 10px rgba(0, 0, 0, 0.24);
+  color: #505050;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.intro__subtitle{
+  text-shadow: 3.5px 8.3px 10px rgba(0, 0, 0, 0.24);
+  color: #505050;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 150px;
+}
+.intro__rectangle{
+  background-color: #b3f1ed;
+}
+.intro__contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 50px;
+  opacity: 0.5;
+  border: 2px solid black;
+  border-radius: 2px;
+  margin: 0 auto;
+  color: black;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.intro__img{
+  position: absolute;
+  bottom: 75px;
+  right: 50px;
+}
