@@ -19,3 +19,6 @@
 .section--intro{
    padding: 65px 20px 0; 
 }
+.section__copyright{
+  background-color: #262b2e; 
+}

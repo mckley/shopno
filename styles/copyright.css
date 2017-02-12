@@ -1,0 +1,14 @@
+.copyright{
+  text-align: center;
+  padding: 30px;
+}
+.copyright__text{
+  color: #7e8183;
+  margin-top: 10px;
+}
+.copyright__icon{
+  margin: 10px;
+}
+.copyright__subtext{
+  color: #65696b;
+}

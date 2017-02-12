@@ -1,0 +1,19 @@
+.form{
+  display: flex;
+  justify-content: space-between;
+}
+.form__message{
+  width: 600px;
+  height: 450px;
+  box-shadow: 0 0 30px rgba(21, 21, 21, 0.12);
+  background-color: #021623;
+  opacity: 0.71;
+  margin:
+}
+.form__address{
+  width: 500px;
+  height: 450px;
+  box-shadow: 0 0 3px rgba(21, 21, 21, 0.16);
+  background-color: #021623;
+  opacity: 0.71;
+}
