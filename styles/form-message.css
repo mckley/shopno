@@ -1,9 +1,17 @@
 .form__message{
   color: #a8afb4;
 }
+.form__name{
+}
 .form__subject{
+  margin-top: 20px;
   border-bottom: 1px solid #5a6b75;
 }
 .form__mail{
+  margin-top: 20px;
   border-bottom: 1px solid #5a6b75;
+}
+.form__message-text{
+  margin-top: 20px;
+  
 }
