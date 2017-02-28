@@ -1,10 +1,13 @@
 .form__right{
-  width: 500px;
-  height: 450px;
   box-shadow: 0 0 3px rgba(21, 21, 21, 0.16);
   background-color: #021623;
   opacity: 0.71;
-}.form__address-requisites{
+}
+.form__address-requisites{
   opacity: 0.7;
   color: #ffffff;
+}
+.form__web{
+  display: flex;
+  flex-direction: column;
 }

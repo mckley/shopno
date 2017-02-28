@@ -4,7 +4,7 @@
   border-radius: 2px;
   background-color: #6eeee4;
   transition: 0.4s;
-  margin-top: 15px;
+  margin: 0 0 20px 0;
 }
 .button:hover{
   opacity: 0.8;
