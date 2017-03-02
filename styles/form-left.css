@@ -2,6 +2,7 @@
   box-shadow: 0 0 30px rgba(21, 21, 21, 0.12);
   background-color: #021623;
   opacity: 0.71;
+  margin-right: 30px;
 }
 .form__left-message{
   margin: 20px 20px 0 20px;

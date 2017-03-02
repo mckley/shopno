@@ -1,0 +1,11 @@
+.logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo__up-sample{
+  margin: 50px 50px 30px;
+}
+.logo__down-sample{
+  margin-right: 50px; 
+}

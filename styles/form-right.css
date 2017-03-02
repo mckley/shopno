@@ -1,13 +1,23 @@
 .form__right{
   box-shadow: 0 0 3px rgba(21, 21, 21, 0.16);
   background-color: #021623;
+  color: #a8afb4;
   opacity: 0.71;
+  padding: 20px;
 }
-.form__address-requisites{
+.form__address{
   opacity: 0.7;
   color: #ffffff;
 }
 .form__web{
-  display: flex;
-  flex-direction: column;
+ margin-top: 20px;
+}
+.form__web-link{
+  margin-left: 5px;
+}
+.form__maps{
+ margin-top: 10px;
+}
+.form__email-link{
+  margin-left: 5px;
 }
