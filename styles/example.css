@@ -1,8 +1,16 @@
 .example{
+  position: relative;
   display: flex;
 }
+.example__img{
+  position:absolute;
+  margin: 10px 0 0 25px;
+}
+.example__img-back{
+  margin-top: 20px;
+}
 .example__content{
-  margin-left: 115px;
+  margin-left: 150px;
 }
 .example__title{
   opacity: 0.75;

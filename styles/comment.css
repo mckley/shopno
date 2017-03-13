@@ -2,8 +2,9 @@
   display:flex;
   justify-content: space-between;
   text-align: flex-start;
+  position: relative;
 }
-.comment__title{
+.user__title{
   opacity: 0.9;
   color: black;
   font-family: Montserrat;
@@ -13,7 +14,7 @@
   text-transform: uppercase;
   margin-bottom: 15px;
 }
-.comment__subtitle{
+.user__subtitle{
   opacity: 0.62;
   color: black;
   font-family: Merriweather;
@@ -21,6 +22,13 @@
   font-weight: 400;
   line-height: 28px;
   text-transform: uppercase;
+}
+.comment__photo-back{
+  position: absolute;
+  margin-top: 25px;
+}
+.comment__photo-title{
+  margin-left: 11%;
 }
 .comment__author{
   display: flex;

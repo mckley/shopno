@@ -1,4 +1,3 @@
-
 .services__title{
   text-align: center;
   opacity: 0.9;
@@ -20,4 +19,10 @@
   line-height: 28px;
   text-transform: uppercase;
   margin-bottom: 125px;
+}
+.services__preview{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: -20px;
 }
