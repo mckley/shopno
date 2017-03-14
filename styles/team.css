@@ -21,3 +21,8 @@
   text-transform: uppercase;
   margin-bottom: 120px;
 }
+.team__samples{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
