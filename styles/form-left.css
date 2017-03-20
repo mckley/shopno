@@ -1,7 +1,5 @@
 .form__left{
-  box-shadow: 0 0 30px rgba(21, 21, 21, 0.12);
-  background-color: #021623;
-  opacity: 0.71;
+  background-color: rgba(72, 84, 94, 1);
   margin-right: 30px;
 }
 .form__left-message{
@@ -22,4 +20,7 @@
 }
 .form__message-text{
   margin: 20px 0 30px 0;
+}
+.from__input-textarea{
+  background-color: rgba(72, 84, 94, 1);
 }
