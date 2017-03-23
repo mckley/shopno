@@ -3,12 +3,12 @@
   padding: 30px;
 }
 .copyright__text{
-  color: #7e8183;
+  color: rgba(126, 129, 131, 1);
   margin-top: 10px;
 }
 .copyright__icon{
   margin: 10px;
 }
 .copyright__subtext{
-  color: #65696b;
+  color: rgba(101, 105, 107, 1);
 }

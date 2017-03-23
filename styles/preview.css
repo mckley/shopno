@@ -9,6 +9,10 @@
   background-size: cover;
   background-position: center center;
 }
+@media (max-width: 1023px){
+  .preview{
+  }
+}
 .preview:after{
   content: "";
   position: absolute;
@@ -46,4 +50,12 @@
 }
 .preview__link-arrow{
   margin-left: 20px;
+}
+.preview__media{
+  display: none;
+}
+@media (max-width: 1023px){
+  .preview__media{
+    
+  }
 }

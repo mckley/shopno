@@ -1,7 +1,6 @@
 .services__title{
   text-align: center;
-  opacity: 0.9;
-  color: black;
+  color: rgba(25, 25, 25, 1);
   font-family: Montserrat;
   font-size: 38px;
   font-weight: 700;
@@ -11,8 +10,7 @@
 }
 .services__subtitle{
   text-align: center;
-  opacity: 0.62;
-  color: black;
+  color: rgba(134, 135, 135, 1);
   font-family: Merriweather;
   font-size: 17px;
   font-weight: 400;

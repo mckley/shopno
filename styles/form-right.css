@@ -1,6 +1,6 @@
 .form__right{
-  background-color: rgba(72, 84, 94, 1);
-  color: #a8afb4;
+  background-color: rgba(73, 84, 94, 0.8);
+  color: rgba(168, 175, 180, 1);
   padding: 20px;
 }
 .form__web{

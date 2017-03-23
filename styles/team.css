@@ -2,8 +2,7 @@
   text-align: center;
 }
 .team__title{
-  opacity: 0.9;
-  color: black;
+  color: rgba(74, 75, 75, 1);
   font-family: Montserrat;
   font-size: 38px;
   font-weight: 700;
@@ -12,8 +11,7 @@
   margin-bottom: 15px;
 }
 .team__subtitle{
-  opacity: 0.62;
-  color: black;
+  color: rgba(110, 111, 111, 0.9);
   font-family: Merriweather;
   font-size: 17px;
   font-weight: 400;
@@ -25,4 +23,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+@media (max-width: 1023px){
+  .team__samples{
+    disaply: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+  }
 }

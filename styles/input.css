@@ -3,15 +3,16 @@
   margin-left: 15px;
   padding-left: 50px;
   border: 0px;
-  background-color: rgba(72, 84, 94, 1);
-  color: #a8afb4;
+  background-color: rgba(73, 84, 94, 0.0);
+  color: rgba(255, 255, 255, 1);
 }
 .form__input-textarea{
   width: 100%;
   height: 100px;
-  background-color: rgba(72, 84, 94, 1);
-  color: #a8afb4;
+  color: rgba(168, 175, 180, 1);
   border: 0px;
   resize: none;
   margin-top: 10px;
+  background-color: rgba(73, 84, 94, 0.0);
+  color: rgba(255, 255, 255, 1);
 }

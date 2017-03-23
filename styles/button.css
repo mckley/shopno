@@ -12,8 +12,7 @@
 .button__text{
   text-align: center;
   padding: 18px;
-  opacity: 0.7;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
   text-transform: uppercase;
 }

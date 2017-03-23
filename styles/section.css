@@ -2,23 +2,28 @@
     padding: 0 20px;  
 }
 .section--light{
-    background-color: #eff0f2;
+    background-color: rgba(239, 240, 242, 1);
+}
+.section--intro{
+   padding: 65px 20px 0; 
 }
 .section__content{
   position: relative;
   max-width: 1140px;
-  min-height: 280px;
+  min-width: 280px;
   margin: 0 auto;
+}
+@media (max-width: 1023px){
+  .section__content{
+    
+  }
 }
 .section--separated{
   padding: 75px 20px;
 }
 .section--greaterly{
-  background-color: #f9fbfb;
-}
-.section--intro{
-   padding: 65px 20px 0; 
+  background-color: rgba(249, 251, 251, 1);
 }
 .section__copyright{
-  background-color: #262b2e; 
+  background-color: rgba(38, 43, 46, 1);
 }

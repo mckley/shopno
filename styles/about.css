@@ -1,6 +1,5 @@
 .about__title{
-  opacity: 0.9;
-  color: black;
+  color: rgba(25, 25, 25, 1);
   font-family: Montserrat;
   font-size: 38px;
   font-weight: 700;
@@ -10,8 +9,7 @@
   margin-bottom: 20px;
 }
 .about__subtitle{
-  opacity: 0.62;
-  color: black;
+  color: rgba(94, 95, 95, 0.6);
   font-family: Merriweather;
   font-size: 18px;
   font-weight: 400;
@@ -19,4 +17,9 @@
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 150px;
+}
+@media (max-width: 1023px){
+  .about__subtitle{
+    margin-bottom: 50px;
+  }
 }

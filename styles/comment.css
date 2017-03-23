@@ -4,24 +4,12 @@
   text-align: flex-start;
   position: relative;
 }
-.user__title{
-  opacity: 0.9;
-  color: black;
-  font-family: Montserrat;
-  font-size: 38px;
-  font-weight: 700;
-  line-height: 28px;
-  text-transform: uppercase;
-  margin-bottom: 15px;
-}
-.user__subtitle{
-  opacity: 0.62;
-  color: black;
-  font-family: Merriweather;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 28px;
-  text-transform: uppercase;
+@media (max-width: 1023px){
+  .comment{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 .comment__photo-back{
   position: absolute;
@@ -41,6 +29,11 @@
   border-radius: 3px;
   margin-top: 25px;
 }
+@media (max-width: 1023px){
+  .comment__author{
+    margin-left: 80px;
+  }
+}
 .comment__author-name{
   color: black;
   font-size: 20px;
@@ -53,10 +46,12 @@
 }
 .comment__text{
   padding: 40px;
-  opacity: 0.7;
-  color: black;
+  color: rgba(70, 70, 71, 0.8);
   font-family: Raleway;
   font-size: 16px;
   font-weight: 400;
   line-height: 27px;
+}
+.comment__rating{
+  color: rgba(242, 218, 59, 1);
 }
