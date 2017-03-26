@@ -19,3 +19,8 @@
   text-transform: uppercase;
   margin-bottom: 130px;
 }
+@media (max-width: 1150px){
+  .featured__subtitle{
+    margin-bottom: 50px;
+  }
+}

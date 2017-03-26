@@ -3,6 +3,12 @@
   color: rgba(168, 175, 180, 1);
   padding: 20px;
 }
+@media (max-width: 1150px){
+  .form__right{
+    width: 550px;
+    margin-bottom: 50px;
+  }
+}
 .form__web{
   margin-top: 20px;
 }
@@ -12,6 +18,16 @@
 .form__maps{
   margin-top: 10px;
 }
+@media (max-width: 1150px){
+  .form__maps{
+    width: 100%;
+  }
+}
 .form__email-link{
   margin-left: 5px;
+}
+@media (max-width: 1150px){
+  .form__map{
+    width: 100%;
+  }
 }

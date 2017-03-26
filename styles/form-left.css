@@ -2,6 +2,11 @@
   background-color: rgba(73, 84, 94, 0.8);
   margin-right: 30px;
 }
+@media (max-width: 1150px){
+  .form__left{
+    margin-right: 0;
+  }
+}
 .form__left-message{
   margin: 20px 20px 0 20px;
   color: rgba(168, 175, 180, 1);

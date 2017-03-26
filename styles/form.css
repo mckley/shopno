@@ -5,6 +5,12 @@
   background-size: cover;
   background-position: center center;
 }
+@media (max-width: 1150px){
+  .form{
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+}
 .form--bg{
   background-size: cover;
   background-position: center;

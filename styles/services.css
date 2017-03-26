@@ -18,6 +18,11 @@
   text-transform: uppercase;
   margin-bottom: 125px;
 }
+@media (max-width: 1150px){
+  .services__subtitle{
+    margin-bottom: 50px;
+  }
+}
 .services__preview{
   display: flex;
   flex-wrap: wrap;

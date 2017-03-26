@@ -5,11 +5,12 @@
 }
 .banner{
   display: block;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
-@media (max-width: 1023px){
-  .banner__container{
-    display: flex;
-    justify-content: space-around;
+@media (max-width: 1150px){
+  .banner{
+  width: 49%;
+  height: 49%;
+  margin-bottom: 12px;
   }
-}
+

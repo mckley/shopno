@@ -4,7 +4,7 @@
   text-align: flex-start;
   position: relative;
 }
-@media (max-width: 1023px){
+@media (max-width: 1150px){
   .comment{
     display: flex;
     flex-wrap: wrap;
@@ -29,7 +29,7 @@
   border-radius: 3px;
   margin-top: 25px;
 }
-@media (max-width: 1023px){
+@media (max-width: 1150px){
   .comment__author{
     margin-left: 80px;
   }
@@ -51,6 +51,11 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 27px;
+}
+@media (max-width: 1150px){
+  .comment__text{
+    font-size: 20px;
+  }
 }
 .comment__rating{
   color: rgba(242, 218, 59, 1);
