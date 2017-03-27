@@ -5,14 +5,12 @@
   background-color: #6eeee4;
   transition: 0.4s;
   margin: 0 0 20px 0;
+  padding: 18px;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Montserrat;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 .button:hover{
   opacity: 0.8;
-}
-.button__text{
-  text-align: center;
-  padding: 18px;
-  color: rgba(0, 0, 0, 0.7);
-  font-size: 18px;
-  text-transform: uppercase;
 }

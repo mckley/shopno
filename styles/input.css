@@ -1,4 +1,4 @@
-.form__input{
+input{
   display: flex;
   margin-left: 15px;
   padding-left: 50px;
@@ -6,7 +6,7 @@
   background-color: rgba(73, 84, 94, 0.0);
   color: rgba(255, 255, 255, 1);
 }
-.form__input-textarea{
+textarea{
   width: 100%;
   height: 100px;
   color: rgba(168, 175, 180, 1);

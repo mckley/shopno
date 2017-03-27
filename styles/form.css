@@ -1,9 +1,26 @@
 .form{
-  display: flex;
-  justify-content: space-around;
-  position: relative;
-  background-size: cover;
-  background-position: center center;
+  background-color: rgba(73, 84, 94, 0.8);
+  color: rgba(168, 175, 180, 1);
+  padding: 20px 20px 0 20px;
+}
+.form__button{
+  padding-bottom: 10px;
+}
+.form__name{
+  border-bottom: 1px solid rgba(168, 175, 180, 1);
+}
+.form__subject{
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(168, 175, 180, 1);
+  width: 550px;
+}
+.form__mail{
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(168, 175, 180, 1);
+  width: 550px;
+}
+.form__message-text{
+  margin: 20px 0 30px 0;
 }
 @media (max-width: 1150px){
   .form{
