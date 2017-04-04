@@ -21,6 +21,7 @@
 @media (max-width: 1150px){
   .services__subtitle{
     margin-bottom: 50px;
+  line-height: 20px;
   }
 }
 .services__preview{

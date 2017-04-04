@@ -1,0 +1,52 @@
+.form__wrap{
+  background: rgba(73, 84, 94, 0.8);
+  color: rgba(168, 175, 180, 1);
+  padding: 20px 20px 0 20px;
+  width: 550px;
+}
+@media (max-width: 639px){
+  .form__wrap{
+    width: 100%;
+    height: auto;
+  }
+}
+.form__wrap-button{
+  padding-bottom: 10px;
+}
+.form__wrap-name{
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(168, 175, 180, 0.7);
+  width: 540px;
+}
+@media (max-width: 639px){
+  .form__wrap-name{
+    width: 100%;
+  }
+}
+.form__wrap-subject{
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(168, 175, 180, 0.7);
+  width: 540px;
+}
+@media (max-width: 639px){
+  .form__wrap-subject{
+    width: 100%;
+  }
+}
+.form__wrap-mail{
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(168, 175, 180, 0.7);
+  width: 540px;
+}
+@media (max-width: 639px){
+  .form__wrap-mail{
+    width: 100%;
+  }
+}
+.form--bg{
+  background-size: cover;
+  background-position: center;
+  background-image: url(http://placehold.it/1140x930);
+}

@@ -12,6 +12,12 @@
 }
 @media(max-width: 1150px){
   .samples{
+    width: 49%;
+  }
+}
+@media (max-width: 639px){
+  .samples{
+    width: 100%;
   }
 }
 .samples:hover .samples__container{

@@ -18,6 +18,13 @@
     width: 800px;
   }
 }
+@media (max-width: 639px){
+  .section__content{
+    width: 280px;
+  }
+}
+
+
 .section--separated{
   padding: 75px 20px;
 }

@@ -13,4 +13,11 @@
   height: 49%;
   margin-bottom: 12px;
   }
+}
+@media (max-width: 639px){
+  .banner{
+    width: 100%;
+  }
+}
+
 

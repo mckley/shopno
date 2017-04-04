@@ -13,7 +13,7 @@
 .featured__subtitle{
   color: rgba(110, 111, 111, 0.9);
   font-family: Merriweather;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 28px;
   text-transform: uppercase;
@@ -22,5 +22,10 @@
 @media (max-width: 1150px){
   .featured__subtitle{
     margin-bottom: 50px;
+  }
+}
+@media (max-width: 639px){
+  .featured__subtitle{
+    line-height: 20px;
   }
 }

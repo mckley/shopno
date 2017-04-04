@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
 }
-
 .logo__up-sample{
   margin-left: 50px;
   margin-bottom: 30px;
@@ -13,13 +12,22 @@
     margin-left: 30px;
   }
 }
+@media (max-width: 639px){
+  .logo__up-sample{
+    display: none;
+  }
+}
 .logo__container{
   display: flex;
 }
 @media (max-width: 1150px){
   .logo__container{
     flex-direction: column;
-    
+  }
+}
+@media (max-width: 639px){
+  .logo__container{
+    flex-direction: row;
   }
 }
 .logo__middle-sample{
@@ -27,8 +35,6 @@
 }
 @media (max-width: 1150px){
   .logo__middle-sample{
-    margin-left: 30px;
-    margin-bottom: 30px;
   }
 }
 .logo__down-sample{

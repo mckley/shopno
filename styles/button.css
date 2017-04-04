@@ -1,8 +1,9 @@
-.button{
+.form__wrap-button{
   width: 250px;
   height: 60px;
+  border: none;
   border-radius: 2px;
-  background-color: #6eeee4;
+  background: rgba(110, 238, 228, 1);
   transition: 0.4s;
   margin: 0 0 20px 0;
   padding: 18px;
@@ -10,7 +11,8 @@
   font-family: Montserrat;
   font-size: 18px;
   text-transform: uppercase;
+  cursor: pointer;
 }
-.button:hover{
+.form__wrap-button:hover{
   opacity: 0.8;
 }

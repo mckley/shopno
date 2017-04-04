@@ -24,15 +24,13 @@
     margin-bottom: 50px;
   }
 }
+@media (max-width: 639px){
+  .team__subtitle{
+    line-height: 20px;
+  }
+}
 .team__samples{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-@media (max-width: 1150px){
-  .team__samples{
-    disaply: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-  }
 }
